@@ -1,0 +1,173 @@
+.section-picture {
+    background-color: #7a3145;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.picture-women {
+    border-radius: 30px;
+    background: rgba(20, 20, 20, 0.2);
+}
+
+.instruction {
+    background-color: #576f35;
+    padding: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+@media screen and (max-width: 1280px) {
+    .instruction {
+        margin: 0 auto;
+    }
+}
+
+.cotainer-instruction {
+    max-width: 300px;
+}
+@media screen and (min-width: 375px) {
+    .cotainer-instruction {
+        max-width: 330px;
+    }
+}
+
+.title-instruction {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+
+    margin-bottom: 20px;
+}
+
+.details-instruction {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #fbfbfb;
+
+    margin-bottom: 40px;
+}
+
+.marker {
+    color: #d4bfc4;
+}
+
+.marker-black {
+    font-weight: 700;
+    color: #141414;
+}
+
+
+ul {
+    counter-reset: section;
+    list-style: none; 
+}
+  
+ol::before {
+    counter-increment: section; 
+    content: counter(section);
+    flex-shrink: 0;
+
+
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #7a3145;
+
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+
+    border: 5px solid #d4bfc4;
+
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+    margin-right: 24px; 
+
+}
+
+.list-instruction {
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    background-color: #fbfbfb;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #858585;
+
+    display: flex;
+    align-items: center;
+}
+
+.list-instruction:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* table */
+@media screen and (min-width: 768px) {
+    .section-picture { 
+        padding: 100px 64px;
+    }
+
+    .instruction {
+        padding: 100px 0px;
+    }
+
+    .cotainer-instruction {
+        max-width: 466px;
+    }
+
+    .title-instruction {
+        font-size: 32px;
+        margin-bottom: 24xp;
+    }
+
+    .details-instruction {
+        font-size: 16px;
+        line-height: 1.25;
+
+        margin-bottom: 52px;
+    }
+
+    .list-instruction {
+        border-radius: 15px;
+        padding: 12px 15px 12px 24px;
+        background-color: #fbfbfb;
+    }
+
+    .list-instruction {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+}
+
+/* dectop */
+@media screen and (min-width: 1280px) {
+    .section-picture { 
+        padding: 100px;
+    } 
+
+    .section-works {
+        display: flex;
+        justify-content: center;
+    }
+
+    .instruction {
+        padding: 100px;
+    }
+
+    .details-instruction {
+        margin-bottom: 104px;
+    }
+}
