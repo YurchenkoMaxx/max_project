@@ -1,11 +1,11 @@
 {
-  "name": "max_project",
+  "name": "project-7-heaven",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/max_project/",
+    "build": "vite build --base=/project-7-heaven/",
     "preview": "vite preview"
   },
   "devDependencies": {
