@@ -2,13 +2,14 @@
     background-color: #7a3145;
     padding: 40px 20px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
 .picture-women {
     border-radius: 30px;
-    background: rgba(20, 20, 20, 0.2);
+    background-color: rgba(20, 20, 20, 0.2);
+    overflow: hidden;
 }
 
 .instruction {
@@ -16,9 +17,10 @@
     padding: 80px 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 1280px) {
     .instruction {
         margin: 0 auto;
@@ -28,6 +30,7 @@
 .cotainer-instruction {
     max-width: 300px;
 }
+
 @media screen and (min-width: 375px) {
     .cotainer-instruction {
         max-width: 330px;
@@ -64,13 +67,13 @@
 }
 
 
-ul {
+ol {
     counter-reset: section;
-    list-style: none; 
+    list-style: none;
 }
-  
-ol::before {
-    counter-increment: section; 
+
+li::before {
+    counter-increment: section;
     content: counter(section);
     flex-shrink: 0;
 
@@ -82,7 +85,7 @@ ol::before {
     width: 42px;
     height: 42px;
     text-align: center;
-    line-height: 42px;
+    align-content: center;
 
     border: 5px solid #d4bfc4;
 
@@ -90,7 +93,7 @@ ol::before {
     font-size: 18px;
     letter-spacing: -0.01em;
     color: #fbfbfb;
-    margin-right: 24px; 
+    margin-right: 24px;
 
 }
 
@@ -114,7 +117,7 @@ ol::before {
 
 /* table */
 @media screen and (min-width: 768px) {
-    .section-picture { 
+    .section-picture {
         padding: 100px 64px;
     }
 
@@ -154,11 +157,12 @@ ol::before {
 
 /* dectop */
 @media screen and (min-width: 1280px) {
-    .section-picture { 
+    .section-picture {
         padding: 100px;
-    } 
+    }
 
     .section-works {
+        background: linear-gradient(to right, #7a3145 49%, #576f35 49%);
         display: flex;
         justify-content: center;
     }
