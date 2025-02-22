@@ -8,7 +8,8 @@
 
 .picture-women {
     border-radius: 30px;
-    background: rgba(20, 20, 20, 0.2);
+    background-color: rgba(20, 20, 20, 0.2);
+    overflow: hidden;
 }
 
 .instruction {
@@ -64,12 +65,12 @@
 }
 
 
-ul {
+ol {
     counter-reset: section;
     list-style: none; 
 }
   
-ol::before {
+li::before {
     counter-increment: section; 
     content: counter(section);
     flex-shrink: 0;
