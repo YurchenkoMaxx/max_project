@@ -73,7 +73,7 @@
     counter-reset: section;
 }
 
-li::before {
+.list-instruction::before {
     counter-increment: section;
     content: counter(section);
     flex-shrink: 0;
@@ -118,8 +118,7 @@ li::before {
 
 .list-instruction:not(:last-child) {
     margin-bottom: 20px;
-}
-
+} 
 
 /* table */
 @media screen and (min-width: 768px) {
@@ -166,17 +165,18 @@ li::before {
 
 /* dectop */
 @media screen and (min-width: 1280px) {
-    .container.instruction {
-        margin-left: 100px;
+    .instruction {
+        margin: none;
     }
 
-    .container.section-picture {
-        margin-right: 100px;
+    .section-picture {
+        margin: none;
     }
 
     .section-works {
         background: linear-gradient(to right, #7a3145 49%, #576f35 49%);
         display: flex;
+        margin: 0 auto;
         justify-content: center;
     }
 
