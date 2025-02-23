@@ -1,5 +1,10 @@
+.section-works {
+    letter-spacing: 0.02em;
+}
+
 .section-picture {
     background-color: #7a3145;
+    max-height: 452px;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
@@ -28,7 +33,7 @@
 }
 
 .cotainer-instruction {
-    max-width: 300px;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 375px) {
@@ -71,9 +76,9 @@ ol {
     counter-reset: section;
     list-style: none;
 }
-  
+
 li::before {
-    counter-increment: section; 
+    counter-increment: section;
     content: counter(section);
     flex-shrink: 0;
 
@@ -118,6 +123,8 @@ li::before {
 /* table */
 @media screen and (min-width: 768px) {
     .section-picture {
+        min-width: 640px;
+        min-height: 640px;
         padding: 100px 64px;
     }
 
@@ -159,6 +166,9 @@ li::before {
 @media screen and (min-width: 1280px) {
     .section-picture {
         padding: 100px;
+
+        min-width: 440px;
+        min-height: 560px;
     }
 
     .section-works {
