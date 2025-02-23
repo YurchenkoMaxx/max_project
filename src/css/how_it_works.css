@@ -174,9 +174,14 @@
     }
 
     .section-works {
-        background: linear-gradient(to right, #7a3145 49%, #576f35 49%);
-        display: flex;
+        background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+        
+    }
+
+    .desk-container {
         margin: 0 auto;
+        width: 1080px;
+        display: flex;
         justify-content: center;
     }
 
