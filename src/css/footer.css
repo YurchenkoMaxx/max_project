@@ -1,9 +1,5 @@
-.footer {
-    padding: 40px 20px;
-}
-
 .container {
-    padding: 0;
+    padding: 40px 20px;
 }
 
 .footer-first-part {
@@ -68,12 +64,9 @@
 }
 
 @media screen and (min-width: 768px) {
-.footer {
-    padding: 32px;
-}
-
 .container {
     max-width: 100%;
+    padding: 32px;
     margin: 0;
 }
 
@@ -125,7 +118,6 @@
 }
 
 .footer-privacy {
-    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.25;
 }
@@ -137,12 +129,12 @@
 }
 
 @media screen and (min-width: 1158px) {
-.footer {
+.container {
     padding: 52px 100px;
 }
 
 .footer-second-part {
-    margin: 0 0 124px 0;
+    margin: 0 0 124px;
     display: flex;
     gap: 121px;
 }
