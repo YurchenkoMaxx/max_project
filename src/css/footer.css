@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 768px) {
 .container {
-    max-width: 100%;
+    /* max-width: 100%; */
     padding: 32px;
     margin: 0;
 }
@@ -93,7 +93,7 @@
 
 .footer-second-part {
     margin-bottom: 100px;
-    flex-grow: 0;
+    /* flex-grow: 0; */
 }
 
 .footer-nav-list {
