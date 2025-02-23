@@ -18,7 +18,7 @@
         !
       </p>
       <div class="order-form-wrapper">
-        <form action="" class="order-form">
+        <form action="#" class="order-form">
           <div class="input-wrapper">
             <input
               class="order-input order-input-name"
@@ -57,15 +57,39 @@
     </div>
 
     <div class="order-soc-part">
-      <img
-        srcset="
-          /img/order/order-mob-min.jpg    1x,
-          /img/order/order-mob@2x-min.jpg 2x
-        "
-        src="/img/order/order-mob-min.jpg"
-        alt="healthy-drink-preparation"
-        class="order-soc-image"
-      />
+      <div class="thumb">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /img/order/order-desk-min.jpg    1x,
+              /img/order/order-desk@2x-min.jpg 2x
+            "
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/order/order-tab-min.jpg    1x,
+              /img/order/order-tab@2x-min.jpg 2x
+            "
+          />
+
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              ./img/order/order-mob-min.jpg    1x,
+              ./img/order/order-mob@2x-min.jpg 2x
+            "
+          />
+          <img
+            src="/img/order/order-desk-min.jpg "
+            alt="healthy-drink-preparation"
+            class="order-soc-image"
+            width="428"
+          />
+        </picture>
+      </div>
       <div class="order-social-wrapper">
         <p class="order-soc-text">Follow us on our social networks:</p>
         <ul class="order-soc-list">
