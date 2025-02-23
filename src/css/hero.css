@@ -22,12 +22,13 @@
 }
 
 .image-container {
-    width: 100%;
+    max-width: 375px;
     height: 372px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(/img/hero/hero-bg-mob-min.jpg);
+    margin: 0 auto;
 }
 
 @media screen and (min-resolution: 2x),
@@ -49,6 +50,7 @@
     }
 
     .image-container {
+        max-width: 768px;
         height: 536px;
         background-image: url(/img/hero/hero-bg-tab-min.jpg)
     }
