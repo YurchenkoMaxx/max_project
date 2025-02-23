@@ -1,5 +1,5 @@
 .section-works {
-    letter-spacing: 0.02em;
+    /* letter-spacing: 0.02em; */
 }
 
 .section-picture {
@@ -73,8 +73,8 @@
 
 
 ol {
+    margin-top: auto;
     counter-reset: section;
-    list-style: none;
 }
 
 li::before {
@@ -87,8 +87,8 @@ li::before {
     border-radius: 50%;
     background-color: #7a3145;
 
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     text-align: center;
     align-content: center;
 
@@ -110,6 +110,7 @@ li::before {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
+    letter-spacing: 0.08px;
     color: #858585;
 
     display: flex;
@@ -132,6 +133,9 @@ li::before {
     }
 
     .cotainer-instruction {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         width: 440px;
     }
 
@@ -141,6 +145,7 @@ li::before {
     }
 
     .details-instruction {
+        flex-grow: 1;
         font-size: 16px;
         line-height: 1.25;
 
