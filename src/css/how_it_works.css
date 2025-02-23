@@ -71,13 +71,16 @@
     color: #141414;
 }
 
-
-ol {
+.nober-list {
     margin-top: auto;
     counter-reset: section;
 }
 
-li::before {
+.span-list{
+    padding-right: 30px;
+}
+
+.list-instruction::before {
     counter-increment: section;
     content: counter(section);
     flex-shrink: 0;
