@@ -4,7 +4,7 @@
 
 .section-picture {
     background-color: #7a3145;
-    max-height: 452px;
+    max-height: 532px;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
@@ -33,12 +33,12 @@
 }
 
 .cotainer-instruction {
-    max-width: 320px;
+    width: 300px;
 }
 
 @media screen and (min-width: 375px) {
     .cotainer-instruction {
-        max-width: 330px;
+        width: 335px;
     }
 }
 
@@ -123,8 +123,7 @@ li::before {
 /* table */
 @media screen and (min-width: 768px) {
     .section-picture {
-        min-width: 640px;
-        min-height: 640px;
+        min-height: 840px;
         padding: 100px 64px;
     }
 
@@ -133,7 +132,7 @@ li::before {
     }
 
     .cotainer-instruction {
-        max-width: 466px;
+        width: 440px;
     }
 
     .title-instruction {
@@ -166,9 +165,7 @@ li::before {
 @media screen and (min-width: 1280px) {
     .section-picture {
         padding: 100px;
-
-        min-width: 440px;
-        min-height: 560px;
+        min-height: 760px;
     }
 
     .section-works {
