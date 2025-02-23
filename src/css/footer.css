@@ -12,7 +12,6 @@
 }
 
 .footer-motto {
-    max-width: 280px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42;
@@ -94,6 +93,7 @@
 
 .footer-second-part {
     margin-bottom: 100px;
+    flex-grow: 0;
 }
 
 .footer-nav-list {
@@ -128,7 +128,7 @@
 
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
 .container {
     padding: 52px 100px;
 }
