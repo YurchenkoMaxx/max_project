@@ -1,4 +1,4 @@
-.vegetables {
+.vegetables-container {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 768px) {
 
-.vegetables {
+.vegetables-container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
