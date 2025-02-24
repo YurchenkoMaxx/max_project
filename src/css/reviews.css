@@ -106,7 +106,7 @@
             }
 
             /* Desktop 1280px */
-            @media (min-width: 1158px) {
+            @media (min-width: 1280px) {
                 .reviews_slider {
                     overflow-x: hidden;
                   
