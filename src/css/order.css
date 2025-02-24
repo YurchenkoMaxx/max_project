@@ -5,8 +5,9 @@
   flex-direction: column;
   gap: 40px;
 
-  padding: 80px 20px;
-  width: 375px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* width: 375px; */
 
   background: #576f35;
 }
@@ -362,7 +363,7 @@
 }
 
 .order-soc-image {
-  border-radius: 15px;
+  border-radius: 17px;
   width: 295px;
   height: 272px;
 
