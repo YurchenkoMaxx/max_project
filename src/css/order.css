@@ -257,7 +257,7 @@
 }
 
 .text-invalid {
-  color: e74a3b;
+  color: #e74a3b;
 }
 
 /* стилізація інформаційного текста при валідному значенні в інпуті */
@@ -367,7 +367,7 @@
   width: 295px;
   height: 272px;
 
-  background: rgba(20, 20, 20, 0.2), url('path_to_image');
+  background: rgba(20, 20, 20, 0.2) url('path_to_image');
 }
 
 @media screen and (min-width: 768px) {
