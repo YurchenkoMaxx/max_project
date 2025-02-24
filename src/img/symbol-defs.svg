@@ -1,11 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-close-icon" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M24 8l-16 16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M8 8l16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M8 8l16 16"></path>
 </symbol>
-<symbol id="icon-burger" viewBox="0 0 43 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M3.556 2.667h35.556M3.556 16h17.778M3.556 29.333h35.556"></path>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M5.333 8h21.333M5.333 16h10.667M5.333 24h21.333"></path>
 </symbol>
 <symbol id="icon-logo-dots" viewBox="0 0 32 32">
 <path d="M29.082 0.314h-4.010c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.010c1.237 0 2.24-0.983 2.24-2.195v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
@@ -81,8 +81,8 @@
 <path d="M300.622 28c-6.678 0-10.7-3.232-10.7-8.032h5.746c-0.072 2.72 1.938 4.224 4.954 4.224 3.196 0 4.702-1.12 4.702-2.784s-1.292-2.368-5.888-3.488c-4.2-1.024-8.796-2.24-8.796-7.040 0-3.808 3.734-6.88 9.622-6.88 6.068 0 9.946 3.040 9.946 7.328h-5.566c-0.036-2.272-1.758-3.52-4.38-3.52-2.548 0-4.236 1.152-4.236 2.688 0 1.824 1.4 2.4 5.062 3.328 5.422 1.344 9.802 1.888 9.802 7.104 0 4.192-4.272 7.072-10.268 7.072z"></path>
 <path d="M319.074 27.68v-19.552h-7.934v-3.808h20.86v3.808h-7.898v19.552h-5.028z"></path>
 </symbol>
-<symbol id="icon-burgermob" viewBox="0 0 42 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.733 3.2h34.133M3.733 16h17.067M3.733 28.8h34.133"></path>
+<symbol id="icon-burgermob" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M5.333 8h21.333M5.333 16h10.667M5.333 24h21.333"></path>
 </symbol>
 </defs>
 </svg>

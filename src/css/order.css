@@ -309,7 +309,7 @@
   border-color: #3cbc81;
 }
 
-.order-button {
+.order_button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,14 +328,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .order-button {
+  .order_button {
     padding: 16px 191px;
     width: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .order-button {
+  .order_button {
     width: 428px;
   }
 }
