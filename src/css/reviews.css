@@ -1,7 +1,7 @@
 
             .reviews {
                     background-color: #FBFBFB;
-                    padding: 80px 20px;
+                    padding: 80px 0;
                     text-align: left;
             }
 
@@ -15,7 +15,7 @@
                 line-height: 1.08;
                 letter-spacing: -0.015em;
                 color: #576F35;
-                padding-bottom: 20px;
+                margin-bottom: 20px;
             
             }
 
@@ -28,7 +28,7 @@
                 font-weight: 500;
                 line-height: 1.43;
                 letter-spacing: 0em;
-                padding-bottom: 40px;
+                margin-bottom: 40px;
                 
             }
 
@@ -42,7 +42,6 @@
             .review {
                 flex: 0 0 335px;
                 max-width: 335px;
-                max-height: 228px;
                 padding: 20px;
                 border: 1px solid #D4BFC4;
                 border-radius: 24px;
@@ -58,7 +57,8 @@
 
             .review h3 {
                 font-size: 18px;
-                padding: 8px;
+                padding-top: 24px;
+                padding-bottom: 8px;
                 display: flex;
                 justify-content: center;
             }
@@ -66,13 +66,17 @@
             .review p {
                 font-size: 14px;
                 line-height: 1.43;
-                letter-spacing: 0em;
+                letter-spacing: 0.01em;
                 text-align: center;
                 color: #858585;
             }
 
             /* Tablet 768px */
             @media (min-width: 768px) {
+                .reviews {
+                    padding: 100px 0;
+                }
+
                 .customers_reviews {
                     max-width: 553px;
                 }
@@ -87,22 +91,21 @@
                     font-size: 16px;
                 line-height: 1.25;
                 }
+
                 .review h3 {
                     font-size: 18px;
-                    padding: 8px;
                     display: flex;
                     justify-content: center;
+                    line-height: 1.25;
                 }
     
                 .review p {
                     font-size: 16px;
                     line-height: 1.43;
                 }
-
-                
             }
 
-            /* Desktop 1158px */
+            /* Desktop 1280px */
             @media (min-width: 1158px) {
                 .reviews_slider {
                     overflow-x: hidden;
