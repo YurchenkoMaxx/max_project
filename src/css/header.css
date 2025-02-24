@@ -3,8 +3,9 @@
     
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 50%;
     background-color: transparent;
+    transform: translateX(-50%);
 }
 
 .header-container{
@@ -18,7 +19,6 @@
 
 .logo{
     fill: #fbfbfb;
-
 }
 
 .nav-list{
@@ -88,7 +88,6 @@
 @media screen and (min-width: 768px){
 .header {
         top: 32px;
-        left: 32px;
         }
 
 .header-container {
@@ -109,6 +108,7 @@ min-width: 704px;
 @media screen and (min-width: 1280px){
 .header {
  left: 0;
+ transform: none;
 }
 
 .header-container {
