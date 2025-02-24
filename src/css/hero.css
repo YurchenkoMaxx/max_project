@@ -41,13 +41,13 @@
 @media only screen and (min-width: 768px) {
     .hero-main-text {
         font-size: 76px;
+        margin-bottom: 24px;
     }
 
     .hero-text {
         font-size: 16px;
         line-height: 1.25;
-        margin-top: 24px;
-        width: 603px;
+        width: 603px; 
     }
 
     .image-container {
@@ -77,12 +77,12 @@
     .hero-main-text {
         padding-top: 232px;
         width: 502px;
+        margin-bottom: 128px;
     }
 
     .hero-text {
-        width: 472px;
-        margin-top: 128px;
-        padding-bottom: 52px;
+        width: 471px;
+        padding-bottom: 52px;git 
     }
 
     .image-container {
