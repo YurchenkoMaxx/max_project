@@ -9,7 +9,7 @@
 }
 
 .section-picture {
-    padding: 40px 20px;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,21 +22,11 @@
 }
 
 .instruction {
-    padding: 80px 20px;
+    padding: 80px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.cotainer-instruction {
-    max-width: 300px;
-}
-
-@media screen and (min-width: 375px) {
-    .cotainer-instruction {
-        max-width: 330px;
-    }
 }
 
 .title-instruction {
@@ -131,11 +121,11 @@
     }
 
     .instruction {
-        padding: 100px 0px;
+        padding: 100px 0;
     }
 
     .cotainer-instruction {
-        max-width: 466px;
+        width: 466px;
     }
 
     .title-instruction {
@@ -165,24 +155,13 @@
 
 /* dectop */
 @media screen and (min-width: 1280px) {
-    .instruction {
-        margin: none;
-    }
-
-    .section-picture {
-        margin: none;
-    }
-
     .section-works {
         background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
-        
     }
 
     .desk-container {
-        margin: 0 auto;
-        width: 1080px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .details-instruction {
