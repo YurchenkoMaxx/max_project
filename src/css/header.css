@@ -9,7 +9,6 @@
 }
 
 .header-container{
-    width: clamp(320px, 100%, 375px);
    display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,14 +84,14 @@
 
 
 @media screen and (min-width: 768px){
-.header {
+
+    .header {
         top: 32px;
         }
 
 .header-container {
 min-width: 768px;
 }
-
 
 .logo{
     width: 216px;
