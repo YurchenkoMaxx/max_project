@@ -47,7 +47,11 @@
     .hero-text {
         font-size: 16px;
         line-height: 1.25;
+<<<<<<< HEAD
         width: 603px;
+=======
+        width: 603px; 
+>>>>>>> 18b5ffda8fded571fa827c573cf24e15971a978f
     }
 
     .image-container {
@@ -65,8 +69,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero {
+    .topscreen-container{
         display: flex;
+        max-width: 1280px;
+        margin: 0 auto;
     }
 
     .hero-container {
