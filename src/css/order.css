@@ -94,7 +94,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
+  width: 280px;
+}
+@media screen and (min-width: 375px) {
+  .order-container {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -117,12 +122,17 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  width: 280px;
 
   background: #fbfbfb;
+}
+
+@media screen and (min-width: 375px) {
+  .order-form-part {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -309,33 +319,38 @@
   border-color: #3cbc81;
 }
 
-.order-button {
+.order_button {
   display: flex;
   align-items: center;
   justify-content: center;
 
   border: none;
   border-radius: 30px;
-  padding: 16px 129px;
-  width: 295px;
+  padding: 16px 100px;
+  max-width: 295px;
   height: 52px;
-
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
   color: #fbfbfb;
   background: #7a3145;
 }
+@media screen and (min-width: 375px) {
+  .order_button {
+    width: 295px;
+    padding: 16px 129px;
+  }
+}
 
 @media screen and (min-width: 768px) {
-  .order-button {
+  .order_button {
     padding: 16px 191px;
     width: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .order-button {
+  .order_button {
     width: 428px;
   }
 }
@@ -368,9 +383,14 @@
 .order-soc-image {
   border-radius: 17px;
   width: 295px;
-  height: 272px;
 
   background: rgba(20, 20, 20, 0.2) url('path_to_image');
+}
+
+@media screen and (min-width: 375px) {
+  .order-soc-image {
+    height: 272px;
+  }
 }
 
 @media screen and (min-width: 768px) {
