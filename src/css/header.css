@@ -1,1 +1,134 @@
 
+.header{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    background-color: transparent;
+    transform: translateX(-50%) ;
+}
+
+.header-container{
+    width: clamp(320px, 100%, 375px);
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    fill: #fbfbfb;
+}
+
+.nav-list{
+   display: none;
+}
+
+.nav-button{
+    display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        color: #fbfbfb;
+        background-color: transparent;
+    border: 1px solid #fbfbfb;
+        border-radius: 12px;
+        padding: 12px;
+        height: 44px;
+        transition: background-color color border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-button:hover,
+.nav-button:focus,
+.order-button:hover,
+.order-button:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+    border: none;
+}
+
+.nav-button:active,
+.order-button:active {
+    color: #7a3145;
+    background-color: #fbfbfb;
+}
+
+
+.order-button{
+    display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fbfbfb;
+    border-radius: 30px;
+        padding: 16px 32px;
+    background-color:#7a3145;
+    border: none;
+    transition: background-color color border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    }
+
+.burger-icon{
+    stroke: #fbfbfb;
+}
+
+
+@media screen and (min-width: 768px){
+.header {
+        top: 32px;
+        }
+
+.header-container {
+min-width: 768px;
+}
+
+
+.logo{
+    width: 216px;
+    height: 20px;
+  }
+
+.burger-icon{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+
+.header {
+ left: 0;
+ transform: none;
+}
+
+.header-container {
+ min-width: 1280px;
+}
+
+.burger{
+    display: none;
+}
+                   
+.nav-list{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.nav-list .nav-list-item:last-child{
+ margin-left: 12px;
+  }
+
+}
