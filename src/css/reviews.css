@@ -57,8 +57,8 @@
 
             .review h3 {
                 font-size: 18px;
-                padding-top: 24px;
-                padding-bottom: 8px;
+                margin-top: 24px;
+                margin-bottom: 8px;
                 display: flex;
                 justify-content: center;
             }
