@@ -61,7 +61,7 @@
 }
 @media (min-width: 1280px) {
   .advertisement-content {
-    min-width: 1054px;
+    max-width: 1054px;
     display: block;
     flex-wrap: nowrap;
     /* padding-left: 16px; */
