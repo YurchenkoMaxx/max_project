@@ -174,7 +174,7 @@
   color: #576f35;
 }
 
-.order-form-wrapper {
+/* .order-form-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -184,7 +184,7 @@
   .order-form-wrapper {
     gap: 24px;
   }
-}
+} */
 
 .order-form {
   display: flex;
@@ -283,6 +283,12 @@
   display: block;
 }
 
+.order-button-textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .order-textarea {
   font-weight: 500;
   font-size: 14px;
@@ -327,7 +333,7 @@
   border: none;
   border-radius: 30px;
   padding: 16px 100px;
-  max-width: 295px;
+  /* max-width: 295px; */
   height: 52px;
   font-weight: 600;
   font-size: 18px;
@@ -397,7 +403,6 @@
   .order-soc-image {
     width: 536px;
     height: 316px;
-
   }
 }
 
