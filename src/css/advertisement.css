@@ -4,7 +4,7 @@
 }
 .advertisement-content {
   text-align: left;
-  min-width: 335px;
+  max-width: 280px;
   display: flex;
   flex-wrap: wrap;
   display: flex;
@@ -14,7 +14,7 @@
   position: relative;
   z-index: 2;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: #fbfbfb;
@@ -29,19 +29,35 @@
   height: 100%;
   background-color: #576f35;
   border-radius: 12px;
-  min-width: 335px;
+  max-width: 280px;
 }
 .advertisement-text {
   position: relative;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 1.08;
   letter-spacing: -0.015em;
   color: #141414;
   z-index: 2;
   display: inline;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 375px) {
+  .advertisement-banner {
+    font-size: 48px;
+    min-width: 335px;
+  }
+  .advertisement-banner::before {
+    min-width: 335px;
+  }
+  .advertisement-text {
+    font-size: 48px;
+  }
+  .advertisement-content {
+    min-width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .advertisement {
     padding: 100px 0;
   }
@@ -57,7 +73,7 @@
     line-height: 1;
   }
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .advertisement-content {
     max-width: 1054px;
     display: block;
@@ -78,5 +94,6 @@
     width: 102%;
     margin-left: -10px;
     height: 80px;
+    margin-top: 5px;
   }
 }
