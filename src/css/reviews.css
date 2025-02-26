@@ -1,117 +1,117 @@
 
+            .reviews {
+                    background-color: #FBFBFB;
+                    padding: 80px 0;
+                    text-align: left;
+            }
+
+            .customers_reviews {
+                max-width: 335px;
+            }
+
+            .customers_reviews h2 {
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 1.08;
+                letter-spacing: -0.015em;
+                color: #576F35;
+                margin-bottom: 20px;
+            
+            }
+
+            .customers_reviews span {
+                color: #141414;
+            }
+
+            .customers_reviews p {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1.43;
+                letter-spacing: 0em;
+                margin-bottom: 40px;
+                
+            }
+
+            .reviews_slider {
+                display: flex;
+                gap: 24px;
+                overflow-x: auto;
+                
+            }
+
+            .review {
+                flex: 0 0 335px;
+                max-width: 280px;
+                padding: 20px;
+                border: 1px solid #D4BFC4;
+                border-radius: 24px;
+                justify-content: center;
+
+            }
+
+            .review img {
+                border-radius: 72px;
+                margin-bottom: 24px;
+                margin: 0 auto;
+            }
+
+            .review h3 {
+                font-size: 18px;
+                margin-top: 24px;
+                margin-bottom: 8px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .review p {
+                font-size: 14px;
+                line-height: 1.43;
+                letter-spacing: 0.01em;
+                text-align: center;
+                color: #858585;
+            }
+@media screen and (min-width: 375px) {
+.review {
+max-width: 335px;
+}
+}
+            /* Tablet 768px */
+            @media (min-width: 768px) {
                 .reviews {
-                        background-color: #FBFBFB;
-                        padding: 80px 0;
-                        text-align: left;
+                    padding: 100px 0;
                 }
 
                 .customers_reviews {
-                    max-width: 335px;
+                    max-width: 553px;
                 }
 
                 .customers_reviews h2 {
-                    font-size: 48px;
-                    font-weight: 600;
-                    line-height: 1.08;
+                    font-size: 64px;  
+                    line-height: 1;
                     letter-spacing: -0.015em;
-                    color: #576F35;
-                    margin-bottom: 20px;
-                
                 }
-
-                .customers_reviews span {
-                    color: #141414;
-                }
-
+    
                 .customers_reviews p {
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 1.43;
-                    letter-spacing: 0em;
-                    margin-bottom: 40px;
-                    
-                }
-
-                .reviews_slider {
-                    display: flex;
-                    gap: 24px;
-                    overflow-x: auto;
-                    
-                }
-
-                .review {
-                    flex: 0 0 335px;
-                    max-width: 280px;
-                    padding: 20px;
-                    border: 1px solid #D4BFC4;
-                    border-radius: 24px;
-                    justify-content: center;
-
-                }
-
-                .review img {
-                    border-radius: 72px;
-                    margin-bottom: 24px;
-                    margin: 0 auto;
+                    font-size: 16px;
+                line-height: 1.25;
                 }
 
                 .review h3 {
                     font-size: 18px;
-                    margin-top: 24px;
-                    margin-bottom: 8px;
                     display: flex;
                     justify-content: center;
-                }
-
-                .review p {
-                    font-size: 14px;
-                    line-height: 1.43;
-                    letter-spacing: 0.01em;
-                    text-align: center;
-                    color: #858585;
-                }
-    @media screen and (min-width: 375px) {
-                .review {
-                max-width: 335px;
-                    }
-                }
-                /* Tablet 768px */
-                @media (min-width: 768px) {
-                    .reviews {
-                        padding: 100px 0;
-                    }
-
-                    .customers_reviews {
-                        max-width: 553px;
-                    }
-
-                    .customers_reviews h2 {
-                        font-size: 64px;  
-                        line-height: 1;
-                        letter-spacing: -0.015em;
-                    }
-        
-                    .customers_reviews p {
-                        font-size: 16px;
                     line-height: 1.25;
-                    }
-
-                    .review h3 {
-                        font-size: 18px;
-                        display: flex;
-                        justify-content: center;
-                        line-height: 1.25;
-                    }
-        
-                    .review p {
-                        font-size: 16px;
-                        line-height: 1.43;
-                    }
                 }
-
-                /* Desktop 1280px */
-                @media (min-width: 1280px) {
-                    .reviews_slider {
-                        overflow-x: hidden;
-                    }
+    
+                .review p {
+                    font-size: 16px;
+                    line-height: 1.43;
                 }
+            }
+
+            /* Desktop 1280px */
+            @media (min-width: 1280px) {
+                .reviews_slider {
+                    overflow-x: hidden;
+                }
+            }

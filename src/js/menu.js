@@ -1,4 +1,3 @@
-
 (() => {
   const refs = {
     openModalBtn: document.querySelector('[data-menu-open]'),
@@ -16,4 +15,3 @@
     refs.overlay.classList.toggle('is-open'); // Показываем/скрываем фон
   }
 })();
-

@@ -1,10 +1,14 @@
 .advertisement {
   background-color: #fbfbfb;
+  padding: 80px 0;
 }
 .advertisement-content {
-  padding-top: 80px;
-  padding-bottom: 80px;
   text-align: left;
+  min-width: 335px;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .advertisement-banner {
   position: relative;
@@ -14,6 +18,7 @@
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+  
 }
 .advertisement-banner::before {
   content: '';
@@ -25,19 +30,24 @@
   height: 100%;
   background-color: #576f35;
   border-radius: 12px;
+  min-width: 335px;
+  
 }
 .advertisement-text {
+  position: relative;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.08;
   letter-spacing: -0.015em;
   color: #141414;
+  z-index: 2;
+  display: inline;
 }
 @media (min-width: 768px) {
-  .advertisement-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .advertisement {
+    padding: 100px 0;
   }
+
   .advertisement-banner {
     padding-top: 20px;
     font-size: 64px;
@@ -51,9 +61,10 @@
 }
 @media (min-width: 1280px) {
   .advertisement-content {
-    width: 1080px;
-    padding-left: 16px;
-
+    max-width: 1054px;
+    display: block;
+    flex-wrap: nowrap;
+    /* padding-left: 16px; */
     /* width: 800px; */
   }
   .advertisement-banner {
@@ -63,10 +74,11 @@
 
   .advertisement-text {
     font-size: 76px;
+    
   }
 
   .advertisement-banner::before {
-    width: 87%;
+    width: 102%;
     margin-left: -10px;
   }
 }
