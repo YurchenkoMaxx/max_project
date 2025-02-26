@@ -1,9 +1,14 @@
 .promo {
   background: #fbfbfb;
+  padding: 100px;
 }
 
-.container {
-  padding: 100px;
+.seo-heading {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .promo-text-fill {
@@ -33,13 +38,18 @@
   text-transform: uppercase;
   max-width: 330px;
   position: relative;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
+  .promo {
+    padding: 100px;
+  }
+
   .promo-text {
     padding: 0 16px;
     font-size: 64px;
-    line-height: 1.09;
+    line-height: 1.08;
     max-width: 704px;
   }
 
@@ -52,27 +62,14 @@
 }
 
 @media (max-width: 768px) {
-  .advertisement-hiden {
-    padding: 30px 10px;
-  }
-
-  .discount-wrapper {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-  }
-
-  .discount-text {
-    padding: 8px 10px;
-    width: 100%;
-    white-space: normal;
+  .promo {
+    padding: 100px 32px; /* 100px зверху і знизу, 50px зліва і справа для адаптації */
   }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
-  .advertisement-hiden {
-    padding: 50px 16px;
+  .promo {
+    padding: 100px 32px;
   }
 
   .background-promo-text {
@@ -90,27 +87,20 @@
     text-align: left;
     margin: 0 auto;
   }
-
-  .discount-wrapper {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .discount-text {
-    padding: 8px 10px;
-    width: 100%;
-    white-space: normal;
-  }
 }
+
 @media screen and (min-width: 1280px) {
+  .promo {
+    padding: 100px 32px;
+  }
+
   .background-promo-text {
     height: 85px;
     width: 808px;
     top: -5px;
     left: 2px;
   }
+
   .promo-text {
     font-size: 76px;
     line-height: 1.05;
@@ -119,6 +109,10 @@
 }
 
 @media screen and (max-width: 400px) {
+  .promo {
+    padding: 100px 20px 20px; /* На маленьких екранах трохи менші бокові відступи */
+  }
+
   .background-promo-text {
     width: 95%;
   }
