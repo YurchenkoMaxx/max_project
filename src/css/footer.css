@@ -99,8 +99,11 @@
     margin-bottom: 100px;
   }
 
-  .footer-nav-list {
+  .footer-nav {
     margin-bottom: 64px;
+  }
+
+  .footer-nav-list {
     gap: 24px;
   }
 
