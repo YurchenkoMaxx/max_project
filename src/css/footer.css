@@ -1,1 +1,144 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
+.footer-first-part {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  margin-bottom: 14px;
+  fill: #fbfbfb;
+}
+
+.footer-motto {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #fbfbfb;
+}
+
+.footer-second-part {
+  margin-bottom: 80px;
+}
+
+.footer-nav-list {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-nav-link {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-contacts-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #fbfbfb;
+}
+
+.footer-privacy {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #d4bfc4;
+}
+
+.footer-privacy:nth-last-child(2) {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-container {
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-first-part {
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    margin-bottom: 24px;
+    width: 216px;
+    height: 20px;
+  }
+
+  .footer-motto {
+    max-width: 265px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .footer-second-part {
+    margin-bottom: 100px;
+  }
+
+  .footer-nav-list {
+    margin-bottom: 64px;
+    gap: 24px;
+  }
+
+  .footer-contacts-list {
+    gap: 24px;
+  }
+
+  .footer-contacts-link {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .footer-third-part {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-privacy {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .footer-privacy:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+
+  .footer-second-part {
+    display: flex;
+    gap: 121px;
+  }
+
+  .footer-nav-list {
+    margin-bottom: 0;
+  }
+}
