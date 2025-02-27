@@ -21,7 +21,7 @@
   <body>
     <section class="header">
   <div class="container header-container">
-    <a class="header-logo" href="#"
+    <a class="header-logo" href="#" aria-label="main-page-header"
       ><svg class="logo" width="168" height="16">
         <use href="/project-7-heaven/assets/symbol-defs-Er-jPtuE.svg#icon-logo-mob"></use></svg
     ></a>
@@ -41,7 +41,12 @@
         </li>
       </ul>
     </nav>
-    <button type="button" aria-label="Name" class="burger" data-menu-open>
+    <button
+      type="button"
+      aria-label="burger_btn_header"
+      class="burger"
+      data-menu-open
+    >
       <svg class="burger-icon" width="32" height="32">
         <use href="/project-7-heaven/assets/symbol-defs-Er-jPtuE.svg#icon-burgermob"></use>
       </svg>
@@ -79,7 +84,13 @@
       </ul>
     </nav>
 
-    <button class="mobile-menu-btn-shop" type="button">Shop now</button>
+    <button
+      class="mobile-menu-btn-shop"
+      aria-label="burger_btn_menu"
+      type="button"
+    >
+      Shop now
+    </button>
   </div>
 </div>
 
@@ -351,7 +362,12 @@
                 placeholder="Comment"
               ></textarea>
 
-              <button class="order-button" type="submit" id="order-button">
+              <button
+                class="order-button"
+                aria-label="burger_btn_order"
+                type="submit"
+                id="order-button"
+              >
                 Send
               </button>
             </div>
@@ -411,42 +427,59 @@
 
     </main>
 
-    
-<footer class="footer">
-    <div class="container footer-container"> 
+    <footer class="footer">
+  <div class="container footer-container">
     <div class="footer-first-part">
-
-        <a class="footer-logo" href="#"> 
-
+      <a class="footer-logo" href="#" aria-label="main-page-footer">
         <svg class="footer-logo-icon" width="168" height="16">
           <use href="/project-7-heaven/assets/symbol-defs-Er-jPtuE.svg#icon-logo-mob"></use>
         </svg>
-        </a>
-        <p class="footer-motto">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
+      </a>
+      <p class="footer-motto">
+        Whether you're looking for a healthy snack or a thoughtful gift, our
+        fruit baskets are the perfect choice.
+      </p>
     </div>
     <div class="footer-second-part">
-        <nav class="footer-nav">
-            <ul class="footer-nav-list">
-                <li class="footer-nav-list-item"><a class="footer-nav-link" href="#how-it-works">HOW IT WORKS</a></li>
-                <li class="footer-nav-list-item"><a class="footer-nav-link" href="#vegetables">VEGETABLES</a></li>
-                <li class="footer-nav-list-item"><a class="footer-nav-link" href="#reviews">REVIEWS</a></li>
-            </ul>
-            </nav>
-            <address class="footer-contacts">
-                <ul class="footer-contacts-list">
-                    <li class="footer-contacts-list-item"><a class="footer-contacts-link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-                    <li class="footer-contacts-list-item"><a class="footer-contacts-link" href="https://www.google.com/maps/search/?api=1&query=1678+S.+Pioneer+Road+Salt+Lake+City+UT+84104" target="_blank">1678 S. Pioneer Road Salt<br>Lake City UT 84104</a></li>
-                </ul>
-            </address>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="#how-it-works">HOW IT WORKS</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="#vegetables">VEGETABLES</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-link" href="#reviews">REVIEWS</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="footer-contacts">
+        <ul class="footer-contacts-list">
+          <li class="footer-contacts-list-item">
+            <a class="footer-contacts-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li class="footer-contacts-list-item">
+            <a
+              class="footer-contacts-link"
+              href="https://www.google.com/maps/search/?api=1&query=1678+S.+Pioneer+Road+Salt+Lake+City+UT+84104"
+              target="_blank"
+              >1678 S. Pioneer Road Salt<br />Lake City UT 84104</a
+            >
+          </li>
+        </ul>
+      </address>
     </div>
     <div class="footer-third-part">
-         <div class="footer-privacy"><a href="#">Privacy Policy</a> / <a href="#">Cookie settings</a></div>
-         <p class="footer-copyright footer-privacy">&copy; Green Harvest 2023</p>
+      <div class="footer-privacy">
+        <a href="#">Privacy Policy</a> / <a href="#">Cookie settings</a>
+      </div>
+      <p class="footer-copyright footer-privacy">&copy; Green Harvest 2023</p>
     </div>
-    </div>
+  </div>
 </footer>
-
-
 
 
   </body>
