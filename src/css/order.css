@@ -3,6 +3,14 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+@media screen and (min-width: 768px) {
+  .order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .order-section {
   display: flex;
   align-items: flex-start;
@@ -15,14 +23,14 @@
 @media screen and (min-width: 768px) {
   .order-section {
     gap: 52px;
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .order-section {
-    padding: 100px;
+    padding: 0 100px;
   }
 }
 
