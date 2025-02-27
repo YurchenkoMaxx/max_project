@@ -1,108 +1,104 @@
 .hero {
-    background-color: #576F35;
+  background-color: #576f35;
 }
 
 .hero-main-text {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    padding-top: 100px;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 
 .hero-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #fbfbfb;
-    padding-bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+  padding-bottom: 40px;
 }
 
 .image-container {
-    max-width: 375px;
-    height: 372px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(/img/hero/hero-bg-mob-min.jpg);
-    margin: 0 auto;
+  max-width: 375px;
+  height: 372px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/img/hero/hero-bg-mob-min.webp);
+  margin: 0 auto;
 }
 
-@media screen and (min-resolution: 2x),
-(-webkit-min-device-pixel-ratio: 2x) {
-    .image-container {
-        background-image: url(/img/hero/hero-bg-mob@2x-min.jpg);
-    }
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
+  .image-container {
+    background-image: url(/img/hero/hero-bg-mob@2x-min.webp);
+  }
 }
 @media screen and (min-width: 375px) {
-    .hero-main-text {
-        font-size: 52px;
-    }
+  .hero-main-text {
+    font-size: 52px;
+  }
 }
-    
 
 @media only screen and (min-width: 768px) {
-    .hero-main-text {
-        font-size: 76px;
-        margin-bottom: 24px;
-    }
+  .hero-main-text {
+    font-size: 76px;
+    margin-bottom: 24px;
+  }
 
-    .hero-text {
-        font-size: 16px;
-        line-height: 1.25;
-        width: 603px;
-    }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 603px;
+  }
 
+  .image-container {
+    max-width: 768px;
+    height: 536px;
+    background-image: url(/img/hero/hero-bg-tab-min.webp);
+  }
+
+  @media screen and(min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
     .image-container {
-        max-width: 768px;
-        height: 536px;
-        background-image: url(/img/hero/hero-bg-tab-min.jpg)
+      background-image: url(/img/hero/hero-bg-tab@2x-min.webp);
     }
-
-    @media screen and(min-resolution: 2x),
-    (-webkit-min-device-pixel-ratio: 2x) {
-        .image-container {
-            background-image: url(/img/hero/hero-bg-tab@2x-min.jpg);
-        }
-    }
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .topscreen-container{
-        display: flex;
-        max-width: 1280px;
-        margin: 0 auto;
-    }
+  .topscreen-container {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 
-    .hero-container {
-        padding-right: 0;
-        margin-right: 38px;
-    }
+  .hero-container {
+    padding-right: 0;
+    margin-right: 38px;
+  }
 
-    .hero-main-text {
-        padding-top: 232px;
-        width: 502px;
-        margin-bottom: 128px;
-    }
+  .hero-main-text {
+    padding-top: 232px;
+    width: 502px;
+    margin-bottom: 128px;
+  }
 
-    .hero-text {
-        width: 471px;
-        padding-bottom: 52px;
-    }
+  .hero-text {
+    width: 471px;
+    padding-bottom: 52px;
+  }
 
+  .image-container {
+    width: 640px;
+    height: 796px;
+    background-image: url(/img/hero/hero-bg-desk-min.webp);
+  }
+
+  @media screen and(min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
     .image-container {
-        width: 640px;
-        height: 796px;
-        background-image: url(/img/hero/hero-bg-desk-min.jpg)
+      background-image: url(/img/hero/hero-bg-desk@2x-min.webp);
     }
-
-    @media screen and(min-resolution: 2x),
-    (-webkit-min-device-pixel-ratio: 2x) {
-        .image-container {
-            background-image: url(/img/hero/hero-bg-desk@2x-min.jpg);
-        }
-    }
+  }
 }
