@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-7-heaven/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-7-heaven/assets/index-CPlC5joE.css">
+    <link rel="stylesheet" crossorigin href="/project-7-heaven/assets/index-DPMEZ8Zq.css">
   </head>
   <body>
     <section class="header">
@@ -315,40 +315,41 @@
         <div class="order-form-wrapper">
           <form action="#" class="order-form">
             <div class="input-wrapper">
-              <label>
-                <input
-                  class="order-input order-input-name"
-                  type="text"
-                  name="name"
-                  placeholder="Full Name"
-                  required
-                />
-              </label>
+              <label for="order-name" class="visually-hidden">Full Name</label>
+              <input
+                id="order-name"
+                class="order-input order-input-name"
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
 
-              <label>
-                <input
-                  class="order-input order-input-email"
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  pattern="(?:[^\s@]*)[\w]{1}@{1}(?:[^\s@]+)[\.]{1}(?:[^\s@]{1,255}\w{1})"
-                  required
-                />
-                <p class="text-valid">Succes!</p>
-                <p class="text-invalid">Invalid email, try again</p>
-              </label>
+              <label for="order-email" class="visually-hidden">Email</label>
+              <input
+                id="order-email"
+                class="order-input order-input-email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                required
+              />
+              <p class="text-valid" hidden>Success!</p>
+              <p class="text-invalid" hidden>Invalid email, try again</p>
             </div>
-            <div class="order-button-textarea-wrapper">
-              <label>
-                <textarea
-                  class="order-textarea order-input-comment"
-                  name="comment"
-                  rows="4"
-                  placeholder="Comment"
-                ></textarea>
-              </label>
 
-              <button class="order_button" type="submit" id="order-button">
+            <div class="order-button-textarea-wrapper">
+              <label for="order-comment" class="visually-hidden">Comment</label>
+              <textarea
+                id="order-comment"
+                class="order-textarea order-input-comment"
+                name="comment"
+                rows="4"
+                placeholder="Comment"
+              ></textarea>
+
+              <button class="order-button" type="submit" id="order-button">
                 Send
               </button>
             </div>
