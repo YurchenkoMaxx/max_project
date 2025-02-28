@@ -9,7 +9,6 @@
 @import url('./base.css');
 @import url('./container.css');
 
-
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
@@ -19,5 +18,4 @@
 @import url('./reviews.css');
 @import url('./order.css');
 @import url('./mobile_menu.css');
-@import url('./tablet_menu.css');
 @import url('./footer.css');
