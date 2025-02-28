@@ -42,6 +42,7 @@
 .css-menu-container.is-open .mobile-menu-overlay {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
 }
 
 .mobile-menu {
