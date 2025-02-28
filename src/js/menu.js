@@ -1,4 +1,5 @@
 (() => {
+
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
@@ -27,10 +28,12 @@
     anchors.forEach(anchor => {
       anchor.removeEventListener('click', toggleMenu);
     });
+
   };
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+
 
   // Вказати брейкпоінт після якого повинна зачинятися
   window.matchMedia('(min-width: 375px)').addEventListener('change', e => {
@@ -40,3 +43,4 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+
