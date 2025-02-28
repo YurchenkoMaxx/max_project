@@ -382,7 +382,8 @@
   border-radius: 17px;
   width: 295px;
 
-  background: rgba(20, 20, 20, 0.2) url('path_to_image');
+  background-color: rgba(20, 20, 20, 0.2)
+    url('/src/img/order/order-desk-min.webp');
 }
 
 @media screen and (min-width: 375px) {
