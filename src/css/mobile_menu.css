@@ -77,6 +77,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 }
 
 .css-menu-container:not(.is-open) .mobile-menu-container {
