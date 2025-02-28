@@ -93,7 +93,7 @@
   .image-container {
     width: 640px;
     height: 796px;
-    background-image: url(/img/hero/hero-bg-desk-min.webp);
+    background-image: url(../img/hero/hero-bg-desk-min.webp);
   }
 
   @media screen and(min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
